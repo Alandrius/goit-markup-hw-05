@@ -513,7 +513,7 @@
             <button
               class="footer-subscribe-button"
               type="submit"
-              onclick="document.querySelector('.modal-overlay').classList.add('is-open')"
+              onclick="event.preventDefault(); document.querySelector('.modal-overlay').classList.add('is-open')"
             >
               Subscribe
               <svg width="24" height="24" fill="#FFFFFF" color="#FFFFFF">
